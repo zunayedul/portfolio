@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+}
+.sohu{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    position: relative;
+    bottom: 40px;
+}
+.greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.name{
+    margin-top: -50px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;  
+}
+
+.bannar-intro{
+
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+    height: 800px;
+}
+
+
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.ul-flex{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.contant-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.profile-pic{
+    position: relative;
+    bottom: 70px;
+    width: 300px; 
+}
+
+ul>li{
+    list-style: none;
+    text-align: center;
+}
+#btn-1{
+    position: relative;
+    bottom: 20px;
+}
+#btn-3{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: #FD6E0A;
+}
+.sohu-info{
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+}
+
+
+
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #FD6E0A;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fef6f6;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: large;
+  font-weight: bolder;
+  border: none;
+  height: 70px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+#btn-9{
+    background-color: transparent;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+}
+
+.h1-about{
+    font-size: xx-large;
+}
+
+.about{
+    background-color: #E4F1FF;
+    text-align: center;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    padding: 100px;
+    margin: 100px 150px 100px 150px;
+    border-radius: 10px;
+}
+
+
+.about-details{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+
+
+.work-exp{
+    background-color: #FCF5ED;
+    margin: 100px 150px 100px 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+}
+
+
+
+.work-details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: left;
+
+   
+}
+.box-shadow{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box-containt{
+color: gray;
+}
+.resume-grid{
+    display: flex;
+    gap: 30px;
+    text-align: justify;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    
+}
+
+.resume-box{
+    margin: 100px 150px 100px 150px;
+    text-align: center; 
+    padding: 40px;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 10PX;
+    color: gray;
+}
+.resume-main{
+  color: rgb(92, 84, 84);  
+}
+.resume-inst{
+    color:  rgb(92, 84, 84);  
+}
+.input-1{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+
+}
+.input-2{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;  
+    border: none;
+}
+.input-3{
+    height: 100px;
+    width: 400px; 
+    border-radius: 5px;
+    border: none;
+}
+.footer-flex{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+
+
+.flex-logo-img{
+    display: flex;
+    gap: 50px;
+}
+.footer{
+    background-color:  #FFF8F3;
+    padding: 150px;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+}
+
+.footer-h2{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .work-details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        text-align: left; 
+}
+
+
+.work-exp{
+    background-color: #FCF5ED;  
+    margin: 100px 0px 100px 0px;
+    padding: 40px;
+    text-align: center;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  }
+
+  .about{
+    background-color: #E4F1FF;
+    text-align: center;
+    padding: 100px;
+    margin: 100px 0px 100px 0px;
+    border-radius: 10px;
+}
+
+.about-details{
+    display: block;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+.hr-block{
+    width: 450px;
+}
+
+.resume-grid{
+    display: block;
+
+}
+
+
+.footer-flex{
+    display: block;
+    gap: 50px;
+}
+
+.footer{
+    padding: 150px 150px 150px 50px;
+}
+
+.resume-main{
+    color: rgb(24, 24, 185);
+}
+
+.resume-inst{
+    color: rgb(139, 18, 160);
+}
+.resume-box{
+    margin: 100px 0px 100px 0px;
+    text-align: center; 
+}
+.header{
+    background-image: url(blanck);
+}
+.nav-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.profile-pic{
+    position: relative;
+    top: 517px;
+    right: 200px;
+    width: 450px;
+}
+.header{
+    height: 1550px;
+   
+}
+.sohu-info{
+    position: relative;
+    left: 240px;
+}
+
+}
+
